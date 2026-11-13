@@ -1,0 +1,10 @@
+# graphify ignore rules (gitignore syntax)
+node_modules/
+.next/
+dist/
+build/
+.venv/
+graphify-out/
+
+# Heavy diagram assets (~1.1 MB of drawio SVG exports, no code content)
+doc/**/*.svg
